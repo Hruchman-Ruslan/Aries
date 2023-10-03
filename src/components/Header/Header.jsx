@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
+import styled from "../Header/Header.module.css";
 
 export const Header = () => {
   return (
-    <header>
+    <header className={styled.header}>
       <nav>
         <ul>
           <li>
