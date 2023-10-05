@@ -48,3 +48,15 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/* global styles */
+
+#root {
+  max-width: 1280px;
+  height: 100vh;
+
+  margin: 0 auto;
+
+  background-color: black;
+  color: aliceblue;
+}
