@@ -7,11 +7,20 @@ export const Header = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/program">program</NavLink>
           </li>
           <li>
-            <NavLink to="/program">Program</NavLink>
+            <NavLink to="/funding">funding</NavLink>
           </li>
+          <li>
+            <NavLink to="/">aries</NavLink>
+          </li>
+          <li>
+            <NavLink to="/jobs">jobs</NavLink>
+          </li>
+          {/* <li>
+            <NavLink to="/menu">menu</NavLink>
+          </li> */}
         </ul>
       </nav>
     </header>
