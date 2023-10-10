@@ -3,6 +3,12 @@
 }
 
 .main__section {
-  padding-top: 280px;
-  padding-bottom: 230px;
+  position: relative;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  background-image: url("../images/big.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }

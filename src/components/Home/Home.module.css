@@ -36,3 +36,17 @@
 
   margin: auto;
 }
+
+.main_small {
+  position: absolute;
+
+  right: 100px;
+  top: 400px;
+
+  background-image: url("../../images/small.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 400px;
+  height: 400px;
+}
