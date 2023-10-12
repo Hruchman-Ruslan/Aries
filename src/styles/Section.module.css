@@ -15,4 +15,8 @@
 
 .about__section {
   padding-bottom: 200px;
+
+  background-image: url("../images/big-about.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
