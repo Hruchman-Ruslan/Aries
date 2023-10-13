@@ -38,6 +38,7 @@
 }
 
 .about__container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -45,5 +46,36 @@
   max-width: 565px;
   height: 380px;
 
+  margin-top: 313px;
   padding-left: 80px;
+}
+
+.bgAbout__container {
+  position: relative;
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.bg__about {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bgAbout__small {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+.about__bg {
+  background-image: url("../../../images/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+
+  width: 572.497px;
+  height: 156.548px;
+  transform: rotate(-75deg);
+  flex-shrink: 0;
 }

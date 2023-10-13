@@ -6,7 +6,6 @@
   position: relative;
 
   padding-top: 200px;
-  padding-bottom: 200px;
 
   background-image: url("../images/big.png");
   background-repeat: no-repeat;
@@ -14,9 +13,11 @@
 }
 
 .about__section {
+  padding-top: 200px;
   padding-bottom: 200px;
 
-  background-image: url("../images/big-about.jpg");
+  /* background-image: url("../images/about-bg.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: right;
+  background-size: 200px; */
 }
