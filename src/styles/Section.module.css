@@ -14,10 +14,14 @@
 
 .about__section {
   padding-top: 200px;
-  padding-bottom: 200px;
 
-  /* background-image: url("../images/about-bg.png");
+  background-image: url("../images/about-bg.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 200px; */
+  background-size: 200px;
+}
+
+.invest {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }

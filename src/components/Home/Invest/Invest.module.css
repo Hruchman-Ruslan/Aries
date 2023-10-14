@@ -1,0 +1,116 @@
+.title__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 90px;
+}
+
+.title {
+  max-width: 664px;
+
+  color: #f4f4f4;
+  font-family: Ginora Sans;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 74px; /* 119.355% */
+  text-transform: capitalize;
+}
+.text {
+  max-width: 440px;
+
+  color: #b8b8b8;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.kawaski__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg {
+  position: relative;
+
+  background-image: url("../../../images/invest-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 466px;
+  height: 480px;
+}
+
+.kawaskImage {
+  position: absolute;
+  top: 50px;
+  right: -100px;
+  width: 268px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 507px;
+}
+
+.decor {
+  color: rgba(184, 184, 184, 0.7);
+  font-family: Ginora Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 112.5% */
+  letter-spacing: 4.8px;
+  text-transform: capitalize;
+
+  margin-bottom: 6px;
+}
+
+.subTitle {
+  color: #f4f4f4;
+
+  /* H3 title - 44px */
+  font-family: Ginora Sans;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 113.636% */
+  text-transform: capitalize;
+
+  margin-bottom: 20px;
+}
+
+.about {
+  color: #b8b8b8;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+
+  margin-bottom: 45px;
+}
+
+.invest__svg {
+  width: 25px;
+}
+
+.invest__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: #99a9ff;
+  font-family: Ginora Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-transform: uppercase;
+}
