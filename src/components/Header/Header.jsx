@@ -4,7 +4,7 @@ import sectionStyles from "../../styles/Section.module.css";
 
 export const Header = () => {
   return (
-    <header className={sectionStyles.section}>
+    <header className={sectionStyles.section__header}>
       <nav className={styles.header__list}>
         <>
           <ul className={styles.header__item}>

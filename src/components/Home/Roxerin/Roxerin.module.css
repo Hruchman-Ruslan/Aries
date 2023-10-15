@@ -1,0 +1,84 @@
+.roxerin__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.roxerin__box {
+  max-width: 520px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.roxerin__about {
+  color: rgba(184, 184, 184, 0.7);
+
+  /* H6 title - 16px */
+  font-family: Ginora Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+
+  margin-bottom: 6px;
+}
+
+.roxerin__title {
+  color: #f4f4f4;
+
+  /* H3 title - 44px */
+  font-family: Ginora Sans;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 113.636% */
+  text-transform: capitalize;
+
+  margin-bottom: 20px;
+}
+
+.roxerin__text {
+  color: #b8b8b8;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+
+  margin-bottom: 45px;
+}
+
+.roxerin__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: #5ce4cf;
+  font-family: Ginora Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 100% */
+  text-transform: uppercase;
+}
+
+.bg {
+  position: relative;
+
+  background-image: url("../../../images/roxerin-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 466px;
+  height: 480px;
+}
+
+.kawaskImage {
+  position: absolute;
+  top: 50px;
+  left: -100px;
+  width: 268px;
+}
