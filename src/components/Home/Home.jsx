@@ -1,3 +1,4 @@
+import { Portfolios } from "../Portfolios/Portfolios";
 import { About } from "./About/About";
 import { Hero } from "./Hero/Hero";
 import { Invest } from "./Invest/Invest";
@@ -10,6 +11,7 @@ export const Home = () => {
       <About />
       <Invest />
       <Roxerin />
+      <Portfolios />
     </>
   );
 };
